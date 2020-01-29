@@ -1,0 +1,31 @@
+{
+  "name": "wifi-speed-tester",
+  "version": "1.0.0",
+  "description": "Simple script to constantly log wifi speed",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "ifttt-webhooks-connector": "^2.0.4",
+    "node-cron": "^2.0.3",
+    "speedtest-net": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.5.1",
+    "dotenv": "^8.2.0",
+    "typescript": "^3.7.5"
+  },
+  "scripts": {
+    "start": "tsc && node ./lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masautt/wifi-speed-tester.git"
+  },
+  "author": "masautt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masautt/wifi-speed-tester/issues"
+  },
+  "homepage": "https://github.com/masautt/wifi-speed-tester#readme"
+}

@@ -4,7 +4,7 @@
   "description": "Simple script to constantly log wifi speed",
   "main": "index.js",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "ifttt-webhooks-connector": "^2.0.4",
     "node-cron": "^2.0.3",
     "speedtest-net": "^1.6.0"
